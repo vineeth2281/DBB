@@ -2,7 +2,7 @@
 
 # RDS connection details
 DB_HOST="vram0324-caption-db.c3wo6q26qzc8.us-east-1.rds.amazonaws.com"           # Replace with your RDS endpoint
-DB_USER="admin"           # Your RDS admin username
+DB_USER="admin"           # Yur RDS admin username
 DB_PASSWORD="Rvineeth23"       # Your RDS password
 SQL_COMMANDS=$(cat <<EOF
 /*
