@@ -70,7 +70,7 @@ def get_s3_client():
 DB_HOST = "vram0324-caption-db.c3wo6q26qzc8.us-east-1.rds.amazonaws.com"
 DB_NAME = "vram0324-caption-db"
 DB_USER = "admin"
-DB_PASSWORD = "Rvineeth23"
+DB_PASSWORD = "Rvineeth24"
 
 def get_db_connection():
     """
