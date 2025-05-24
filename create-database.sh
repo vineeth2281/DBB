@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # RDS connection details
-DB_HOST="captions-db.c3wo6q26qzc8.us-east-1.rds.amazonaws.com"           # Replace with your RDS endpoint
+DB_HOST="captions-db.cb1s8yxr7oib.us-east-1.rds.amazonaws.com"           # Replace with your RDS endpoint
 DB_USER="admin"           # Yur RDS admin username
 DB_PASSWORD="ramjay2281"       # Your RDS password
 SQL_COMMANDS=$(cat <<EOF
