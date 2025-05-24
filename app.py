@@ -67,7 +67,7 @@ def get_s3_client():
     return boto3.client("s3", region_name=S3_REGION)
 
 # Database Configuration, REPLACE with your RDS credentials
-DB_HOST = "captions-db.c3wo6q26qzc8.us-east-1.rds.amazonaws.com"
+DB_HOST = "captions-db.cb1s8yxr7oib.us-east-1.rds.amazonaws.com"
 DB_NAME = "image_caption_db"
 DB_USER = "admin"
 DB_PASSWORD = "ramjay2281"
