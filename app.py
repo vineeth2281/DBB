@@ -29,11 +29,11 @@ import base64  # Encoding image data for API processing
 from io import BytesIO  # Handling in-memory file objects
 
 # Configure Gemini API, REPLACE with your Gemini API key
-GOOGLE_API_KEY = "AIzaSyCD7SG2XqA-ummfyhMJIcdNZwkaSG6Iwic"
+GOOGLE_API_KEY = "AIzaSyDJ3WWNqRtJ2FacGXAE3Qlc4AD8UVbA3pw"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Choose a Gemini model for generating captions
-model = genai.GenerativeModel(model_name="gemini-2.0-pro-exp-02-05")
+model = genai.GenerativeModel(model_name="gemini-2.0-flash-lite")
 
 def generate_image_caption(image_data):
     """
